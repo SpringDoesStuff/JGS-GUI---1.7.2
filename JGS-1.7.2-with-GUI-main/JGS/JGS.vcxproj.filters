@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK\FN_Basic.cpp">
+      <Filter>SDK\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_CoreUObject_functions.cpp">
+      <Filter>SDK\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_Engine_functions.cpp">
+      <Filter>SDK\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_FortniteGame_functions.cpp">
+      <Filter>SDK\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FN_GameplayAbilities_functions.cpp">
+      <Filter>SDK\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Net">
+      <UniqueIdentifier>{9dd88066-01f7-407a-8c3c-d3f4bbc3d67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{59172546-051c-4183-847d-85ab232809c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\sdk">
+      <UniqueIdentifier>{c1e2ecfe-b2fc-4826-a2ef-ef160c8763fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{9c9b73ec-4884-476f-a9d4-d63c42cd4da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{08efa366-173f-43f1-9f88-7707225e34ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{94293dfc-54af-4c62-8a4f-10cccbb027db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="NetHooks.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Replication.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Inventory.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Abilities.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHooks.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
