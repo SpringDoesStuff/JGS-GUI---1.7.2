@@ -1,4 +1,4 @@
-JGS With a GUI (Version 1.7.2) 
+***JGS With a GUI (Version 1.7.2) ***
 
 #Credits Jacobb626 , MagmaDev
 
